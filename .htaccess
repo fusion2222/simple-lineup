@@ -1,0 +1,15 @@
+<Files * >
+     Order Deny,Allow
+     Deny from All
+</Files>
+
+<FilesMatch ".+\.css$|.+\.js$">
+  Allow from all
+</FilesMatch>
+
+<Files "gulpfile.js">  
+  Order Allow,Deny
+  Deny from all
+</Files>
+
+
