@@ -24,7 +24,7 @@ function simple_lineup__showbox_template($start, $duration, $display_on_program_
 			</tr>
 		</tbody>
 	</table>
-	<button type="button" class="components-button components-icon-button is-default is-primary dashicons-before dashicons-trash sheduling-widget--item--delete-button js-sheduling-widget--item--delete-button"></button>
+	<button type="button" class="button button-primary dashicons-before dashicons-trash sheduling-widget--item--delete-button js-sheduling-widget--item--delete-button"></button>
 	<?php if($id): ?>
 		<input type="hidden" name="simple_lineup__id[<?php echo $order; ?>]" value="<?php echo $id; ?>">
 	<?php endif; ?>

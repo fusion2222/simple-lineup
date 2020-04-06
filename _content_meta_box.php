@@ -183,7 +183,7 @@ function simple_lineup__render_planning_metabox() {
 
 				</div>
 
-				<button type="button" class="sheduling-widget--add-button components-button editor-post-publish-button is-button is-default is-primary is-large dashicons-before dashicons-plus js-sheduling-widget--add-button">
+				<button type="button" class="sheduling-widget--add-button button button-primary button-large dashicons-before dashicons-plus js-sheduling-widget--add-button">
 					Add new show
 				</button>
 
