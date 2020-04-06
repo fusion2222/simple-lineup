@@ -1,5 +1,5 @@
 // This is very bad hack for checkboxes... but using WordPress requires the most harshest methods available.
-var JsonizedCheckboxes = {
+export var JsonizedCheckboxes = {
 	
 	WRAPPER_CLASS: 'js-frontend-jsonizer',
 	OPTION_FIELD_CLASS: 'js-frontend-jsonizer--option',
@@ -30,5 +30,3 @@ var JsonizedCheckboxes = {
 		});
 	}
 };
-
-JsonizedCheckboxes.init();

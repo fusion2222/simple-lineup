@@ -1,4 +1,4 @@
-var CountryfestShedulingWidget = {
+export var CountryfestShedulingWidget = {
 	WIDGET_CLASS: 'js-sheduling-widget',
 
 	SHOWBOX_FORM_CLASS: 'js-sheduling-widget--new-item',
@@ -196,7 +196,3 @@ var CountryfestShedulingWidget = {
 		this.registerEvents();
 	}
 };
-
-window.addEventListener('DOMContentLoaded', function(event){
-	CountryfestShedulingWidget.init();
-});
